@@ -1,23 +1,27 @@
 {
     "Products": [
         {
-            "img": "/assets/ultratech.png",
+            "img": "/Bg/ultra.png",
             "title": "Ultratech"
         },
         {
-            "img": "assets/birla.png",
+            "img": "/Bg/WHIRE BG.png",
             "title": "Birla"
         },
         {
             "img": "/assets/birla-white-wallcare-putty.png",
             "title": "Birla wall care"
         },
+          {
+            "img": "/Bg/ULTRATECH BG.png",
+            "title": "Birla"
+        },
         {
             "img": "/assets/araldite.jpg",
             "title": "Araldite"
         },
         {
-            "img": "assets/dr fixit.jpg",
+            "img": "/Bg/FIXIT BG.png",
             "title": "dr fixit"
         },
         {
@@ -31,35 +35,38 @@
     ],
     "Services": [
         {
-            "icon": "assets/birla.png",
-            "name": "Lorem ipsum dolor",
+            "icon": "/Bg/ultra.png",
+            "name": "ultratech Building solution",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "assets/birla.png",
-            "name": "Consectetur adipiscing",
+            "icon": "/assets/birla-white-wallcare-putty.png",
+            "name": "Birla white cement",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "assets/birla.png",
-            "name": "Lorem ipsum dolor",
+            "icon": "/assets/MYK BG 42.png",
+            "name": "myk laticrete",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
-        {
-            "icon": "assets/birla.png",
-            "name": "Consectetur adipiscing",
+         {
+            "icon": "/assets/MYK BG 42.png",
+            "name": "myk laticrete",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
-        {
-            "icon": "assets/birla.png",
-            "name": "Lorem ipsum dolor",
+         {
+            "icon": "/assets/MYK BG 42.png",
+            "name": "myk laticrete",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
-        {
-            "icon": "assets/birla.png",
-            "name": "Consectetur adipiscing",
+         {
+            "icon": "/assets/MYK BG 42.png",
+            "name": "myk laticrete",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         }
+        
+       
+       
     ],
     "Header": {
         "title": "We are a Landing Page",

@@ -17,8 +17,8 @@ export const Services = ({ data }) => {
                   className="flex flex-col items-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 group transform hover:-translate-y-2"
                 >
 
-                  <div className="w-20 h-20 flex object-fill items-center justify-center bg-gradient-to-r from-designColor to-green-400 rounded-full text-white text-5xl mb-6 shadow-md transition-all duration-300">
-                    <img src="assets/birla.png" />
+                  <div className=" servies-img ">
+                    <img src={d.icon}  />
                   </div>
 
                   <div className="text-center">
