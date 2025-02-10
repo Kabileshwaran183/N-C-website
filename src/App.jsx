@@ -14,7 +14,7 @@ function App() {
     <>
     <div className=" h-auto">
         <Navbar data={JsonData.Header}/>
-        <div className=" mx-auto">
+        <div className=" ">
           <Product data={JsonData.Products}/>
           <About />
           <Contact />

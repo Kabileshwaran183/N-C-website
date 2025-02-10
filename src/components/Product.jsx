@@ -1,12 +1,12 @@
 
 const Product = ({ data }) => {
     return (
-        <div id="Products" className="text-center py-10">
+        <div id="Products" className="text-center py-10 bg-10">
             <div className="container  flex flex-col justify-center  items-center">
-                <div className="max-w-3xl mx-auto mb-10 flex  ">
+                <div className="max-w-3xl mx-auto mb-10 flex bg  ">
                     <h2 className="text-3xl font-bold text-gray-800">Products</h2>
                 </div>
-                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 ">
                     {data
                         ? data.map((d) => (
                             <div className="flex flex-col items-center text-center ">
