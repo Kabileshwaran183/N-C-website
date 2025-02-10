@@ -72,7 +72,7 @@ const Footer = () => {
                 </div>
 
 
-                <h6 className="text-center">&copy; right Coderfilx {Year}</h6>
+                <h6 className="text-center">&copy; SK {Year}</h6>
             </div>
         </footer>
     );
