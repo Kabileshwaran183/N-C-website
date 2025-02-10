@@ -31,3 +31,6 @@
 .projectslide-img {
     @apply h-[100px] w-[200px] 
 }
+.prod-div{
+    @apply mb-12
+}
