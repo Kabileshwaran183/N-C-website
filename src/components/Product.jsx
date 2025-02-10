@@ -69,7 +69,7 @@ const Product = ({ data }) => {
                         ? data.map((d) => (
                             <div className="flex flex-col items-center text-center ">
                                 <div className="text-4xl mb-3 ">
-                                    <img src={d.img}  className="h-[200px] w-[200px] bg-white rounded shadow-lg hover:shadow-2xl transition-all duration-300 group transform hover:-translate-y-2   "/>
+                                    <img src={d.img}  className="h-[200px] w-[200px] bg-white rounded shadow-lg hover:shadow-2xl transition-all duration-300 group transform hover:-translate-y-2   object-contain "/>
                                 </div>
                             </div>
                         ))
