@@ -6,7 +6,7 @@ const Product = ({ data }) => {
     var settings = {
         dots: false,
         infinite: true,
-        slidesToShow: 5,
+        slidesToShow: 7,
         slidesToScroll: 1,
         initialSlide: 0,
         autoplay: true,
