@@ -22,3 +22,6 @@
     @apply bg-black text-white hidden md:inline transform transition-transform
     duration-500 hover:scale-115 px-4 py-2 rounded
 }
+.top-container-1{
+    @apply bg-yellow-100
+}

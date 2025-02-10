@@ -1,7 +1,7 @@
 
 const Product = ({ data }) => {
     return (
-        <section>
+        <section className="top-container-1">
         <div id="Products" className="text-center px-8 md:px-16 lg:px-24   ">
             <div className=" flex flex-col justify-center  items-center">
                 <div className="max-w-3xl mx-auto mb-10 flex bg  ">
