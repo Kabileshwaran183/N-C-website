@@ -18,11 +18,11 @@ const Navbar = () => {
             className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
                 isScrolled ? "bg-yellow-300 bg-opacity-0 backdrop-blur-md text-white" : "bg-yellow-300"
             }`}
-            style={{ backgroundColor: isScrolled ? "rgba(255, 223, 88, 0.0)" : "rgb(253 224 71)" }}
+            style={{ backgroundColor: isScrolled ?  "rgb(253 224 71)":"rgba(255, 223, 88, 0.0)" }}
         >
             <div className="h-16 mx-[20px] max-w-[800px] flex items-center justify-between px-6 ">
                 <div className={`flex items-center ${isScrolled ? "text-black":"text-white"} font-bold text-2xl`}>
-                    <img src="assets/natarajan.jpg" alt="" className="w-10" />
+                    <img src="assets/natarajan.jpg" alt="" className="w-10 rounded-full h-10" />
                     <span>Natarajan and Co</span>
                 </div>
                 <div className={`${isScrolled ? "text-black":"text-white"} hidden sm:block`}>
