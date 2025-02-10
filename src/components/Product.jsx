@@ -76,7 +76,7 @@ const Product = ({ data }) => {
                         : "Loading..."}
                         </Slider>
                 </div>
-               
+            
             </div>
         </div>
         </section>
