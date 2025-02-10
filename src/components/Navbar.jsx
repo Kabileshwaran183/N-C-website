@@ -5,7 +5,7 @@ const Navbar = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsScrolled(window.scrollY > 50);
+            setIsScrolled(window.scrollY > 650);
         };
 
         window.addEventListener("scroll", handleScroll);
@@ -16,7 +16,7 @@ const Navbar = () => {
         <nav
             data-aos="fade-down"
             className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-                isScrolled ? "bg-yellow-300 bg-opacity-0 backdrop-blur-md" : "bg-yellow-300"
+                isScrolled ? "bg-yellow-300 bg-opacity-0 backdrop-blur-md text-white" : "bg-yellow-300"
             }`}
             style={{ backgroundColor: isScrolled ? "rgba(255, 223, 88, 0.0)" : "rgb(253 224 71)" }}
         >
