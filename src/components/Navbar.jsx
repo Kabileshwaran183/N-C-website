@@ -18,7 +18,7 @@ const Navbar = () => {
             className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
                 isScrolled ? "bg-yellow-300 bg-opacity-0 backdrop-blur-md" : "bg-yellow-300"
             }`}
-            style={{ backgroundColor: isScrolled ? "rgba(255, 223, 88, 0.2)" : "rgb(253 224 71)" }} // Inline transparency
+            style={{ backgroundColor: isScrolled ? "rgba(255, 223, 88, 0.2)" : "rgb(253 224 71)" }} 
         >
             <div className="h-16 mx-auto flex items-center justify-between px-6">
                 <div className="flex items-center text-black font-bold text-2xl">
