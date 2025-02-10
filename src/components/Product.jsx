@@ -1,8 +1,9 @@
 
 const Product = ({ data }) => {
     return (
-        <div id="Products" className="text-center py-10 bg-10">
-            <div className="container  flex flex-col justify-center  items-center">
+        <section>
+        <div id="Products" className="text-center px-8 md:px-16 lg:px-24   ">
+            <div className=" flex flex-col justify-center  items-center">
                 <div className="max-w-3xl mx-auto mb-10 flex bg  ">
                     <h2 className="text-3xl font-bold text-gray-800">Products</h2>
                 </div>
@@ -20,6 +21,7 @@ const Product = ({ data }) => {
                 </div>
             </div>
         </div>
+        </section>
     );
 };
 
