@@ -23,16 +23,17 @@ const Navbar = () => {
                   
             } 
         >
-            <div className="h-16 mx-[20px] max-w-[800px] flex items-center justify-between px-6">
-                <div className="flex items-center text-black font-bold text-2xl">
+            <div className="h-16 mx-[20px] max-w-[800px] flex items-center justify-between px-6 ">
+                <div className={`flex items-center ${isScrolled ? "text-black":"text-white"} font-bold text-2xl`}>
                     <img src="assets/natarajan.jpg" alt="" className="w-10" />
                     <span>Natarajan and Co</span>
                 </div>
-                <div className="text-black hidden sm:block">
+                <div className={`${isScrolled ? "text-black":"text-white"} hidden sm:block`}>
                     <ul className="flex items-center gap-6 text-xl py-4 mr-4">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Products</a></li>
+                         <li><a href="#">Dealership</a></li>
                         <li><a href="#">Contacts</a></li>
                     </ul>
                 </div>
