@@ -6,6 +6,8 @@ import Product from "./components/Product"
 import './index.css'
 
 import JsonData from "./components/Constants/Product.json"
+import Footer from "./components/Footer"
+import { Services } from "./components/services"
 
 
 function App() {
@@ -17,7 +19,9 @@ function App() {
         <div >
           <Product data={JsonData.Products}/>
           <About />
+          <Services data={JsonData.Services} />
           <Contact />
+          <Footer />
         </div>
     </div>
     
