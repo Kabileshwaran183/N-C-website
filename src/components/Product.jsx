@@ -56,11 +56,11 @@ const Product = ({ data }) => {
 
 
     return (
-        <section className="top-container-1">
-            <div id="Products" className="text-center px-8 md:px-16 lg:px-24   ">
+        <section className="top-container-1 overflow-hidden">
+            <div id="Products" className="text-center px-8 md:px-16 lg:px-24 max-w-screen  ">
                 <div className=" ">
                     <div className="max-w-3xl mx-auto mb-10 flex bg  ">
-                        <h2 className="text-3xl font-bold text-gray-800">Products</h2>
+                        <h2 className="text-3xl font-bold text-gray-800">Poducts</h2>
                     </div>
 
                     <div className="grid grid-cols-1  gap-6 ">

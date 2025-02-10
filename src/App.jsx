@@ -15,9 +15,9 @@ function App() {
 
   return (
     <>
-    <div >
+    <div>
         <Navbar data={JsonData.Header}/>
-        <div >
+        <div className="w-full h-auto">
           
           <About />
           <Product data={JsonData.Products}/>
