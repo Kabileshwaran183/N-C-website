@@ -56,8 +56,8 @@ const Product = ({ data }) => {
 
 
     return (
-        <section className="top-container-1">
-        <div id="Products" className="text-center px-8 md:px-16 lg:px-24   ">
+        <section className="top-container-1 px-8 md:px-16 lg:px-24">
+        <div id="Products" className="text-center    ">
             <div className=" ">
                 <div className="max-w-3xl mx-auto mb-10 flex bg  ">
                     <h2 className="text-3xl font-bold text-gray-800">Products</h2>
@@ -69,7 +69,7 @@ const Product = ({ data }) => {
                         ? data.map((d) => (
                             <div className="flex flex-col items-center text-center ">
                                 <div className="text-4xl mb-3 ">
-                                    <img src={d.img}  className="h-[200px] box-border  "/>
+                                    <img src={d.img}  className="h-[150px]   "/>
                                 </div>
                             </div>
                         ))
