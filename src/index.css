@@ -23,5 +23,11 @@
     duration-500 hover:scale-115 px-4 py-2 rounded
 }
 .top-container-1{
-    @apply bg-yellow-100
+    @apply  mt-10
+}
+.proj-div {
+    @apply px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform duration-500 hover:scale-110 cursor-pointer
+}
+.projectslide-img {
+    @apply h-[100px] w-[200px] 
 }
