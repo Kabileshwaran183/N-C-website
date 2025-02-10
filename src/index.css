@@ -34,3 +34,6 @@
 .prod-div{
     @apply mb-12
 }
+.serv-parent{
+    @apply flex flex-col py-20  bg-gradient-to-b from-gray-50 to-gray-200 text-center mb-30
+}
