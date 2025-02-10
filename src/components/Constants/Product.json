@@ -1,6 +1,6 @@
 {
     "Products": [
-           {
+        {
             "img": "/assets/ultratech.png",
             "title": "Ultratech"
         },
@@ -8,18 +8,18 @@
             "img": "assets/birla.png",
             "title": "Birla"
         },
-         {
+        {
             "img": "/assets/birla-white-wallcare-putty.png",
             "title": "Birla wall care"
         },
-         {
+        {
             "img": "/assets/unnamed.png",
             "title": "Araldite"
         },
         {
             "img": "assets/dr fixit.jpg",
             "title": "dr fixit"
-            },
+        },
         {
             "img": "assets/myk.png",
             "title": "myk"
@@ -27,13 +27,42 @@
         {
             "img": "assets/roff.png",
             "title": "roff"
-            
         }
-        
-        
+    ],
+    "Services": [
+        {
+            "icon": "assets/birla.png",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "assets/birla.png",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "assets/birla.png",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "assets/birla.png",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "assets/birla.png",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "assets/birla.png",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        }
     ],
     "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
-}
+        "title": "We are a Landing Page",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    }
 }
