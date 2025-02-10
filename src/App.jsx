@@ -2,6 +2,7 @@ import About from "./components/About"
 import Contact from "./components/Contact"
 import Navbar from "./components/Navbar"
 import Product from "./components/Product"
+import './index.css'
 
 function App() {
 
