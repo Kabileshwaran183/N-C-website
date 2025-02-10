@@ -12,12 +12,10 @@ function App() {
 
   return (
     <>
-    <div className="w-full h-auto px-4">
+    <div >
         <Navbar data={JsonData.Header}/>
-        <div className=" ">
+        <div >
           <Product data={JsonData.Products}/>
-        <div className="max-w-screen-xl mx-auto">
-          <Product data={JsonData.Features}/>
           <About />
           <Contact />
         </div>
