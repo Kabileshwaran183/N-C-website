@@ -23,7 +23,7 @@
     duration-500 hover:scale-115 px-4 py-2 rounded
 }
 .top-container-1{
-    @apply  mt-10
+    @apply  mt-10 overflow-hidden px-8 md:px-16 lg:px-24
 }
 .proj-div {
     @apply px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform duration-500 hover:scale-110 cursor-pointer
