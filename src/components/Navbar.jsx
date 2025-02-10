@@ -1,21 +1,41 @@
+import React, { useState, useEffect } from "react";
+
 const Navbar = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 50);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return (
-        <>
-        <nav className="top-container ">
-            <div className="container">
-                <div className="text-2xl hidden md:inline font-bold  ">Natarajan and co</div>
-                    <div className=" navbar-head">
-                        <a href="#home" className="hover:text-black  duration-300 delay-100">Home</a>
-                        <a href="#home" className="hover:text-black  duration-300 delay-100">About</a>
-                        <a href="#home" className="hover:text-black  duration-300 delay-100">dealership</a>
-                        <a href="#home" className="hover:text-black  duration-300 delay-100">Products</a>
-                        <a href="#home" className="hover:text-black  duration-300 delay-100">Contact us</a>
-                    </div>
-                    <button className="button">Contact me</button>
-                
+        <nav
+            data-aos="fade-down"
+            className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+                isScrolled ? "bg-yellow-300 bg-opacity-0 backdrop-blur-md" : "bg-yellow-300"
+            }`}
+            style={{ backgroundColor: isScrolled ? "rgba(255, 223, 88, 0.2)" : "rgb(253 224 71)" }} // Inline transparency
+        >
+            <div className="h-16 mx-auto flex items-center justify-between px-6">
+                <div className="flex items-center text-black font-bold text-2xl">
+                    <img src="assets/natarajan.jpg" alt="" className="w-10" />
+                    <span>Natarajan and Co</span>
+                </div>
+                <div className="text-black hidden sm:block">
+                    <ul className="flex items-center gap-6 text-xl py-4 mr-4">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        </>
-    )
-}
+    );
+};
+
 export default Navbar;
