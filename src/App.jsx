@@ -12,9 +12,9 @@ function App() {
 
   return (
     <>
-    <div className="w-full h-auto">
+    <div className="w-full h-auto px-4">
         <Navbar data={JsonData.Header}/>
-        <div className="">
+        <div className="max-w-screen-xl mx-auto">
           <Product data={JsonData.Features}/>
           <About />
           <Contact />
