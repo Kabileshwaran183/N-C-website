@@ -2,7 +2,8 @@ import React from "react";
 
 export const Services = ({ data }) => {
   return (
-    <div id="services" className="flex flex-col py-20 px-auto bg-gradient-to-b from-gray-50 to-gray-200 text-center">
+    <section className="top-container-1"> 
+         <div id="services" className=" serv-parent">
       <div className=" mx-auto px-6 md:px-12">
         
 
@@ -30,6 +31,8 @@ export const Services = ({ data }) => {
         </div>
       </div>
     </div>
+    </section>
+
   );
 };
 
