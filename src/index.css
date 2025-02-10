@@ -11,7 +11,7 @@
 }
 
 .navbar-head {
-    @apply space-x-6 font-bold
+    @apply space-x-4 font-bold md:space-x-6
 }
 
 .top-container {

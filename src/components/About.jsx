@@ -2,7 +2,8 @@ import React from "react";
 
 export const About = () => {
     return (
-        <div id="about" className="py-16 bg-gray-100">
+        <section className="top-container-1">
+                    <div id="about" className="py-16 bg-gray-100">
             <div className="container mx-auto px-6 md:px-12">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 
@@ -22,6 +23,8 @@ export const About = () => {
                 </div>
             </div>
         </div>
+        </section>
+
     );
 };
 
