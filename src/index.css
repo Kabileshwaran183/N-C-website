@@ -7,7 +7,7 @@
 }
 
 .container {
-    @apply flex justify-center md:justify-between items-center  py-2
+    @apply flex justify-center md:justify-between items-center py-2
 }
 
 .navbar-head {
@@ -15,25 +15,65 @@
 }
 
 .top-container {
-    @apply bg-amber-300 text-white px-8 md:px-16 lg:px-24 
+    @apply bg-amber-300 text-white px-8 md:px-16 lg:px-24
 }
 
 .button {
-    @apply bg-black text-white hidden md:inline transform transition-transform
-    duration-500 hover:scale-115 px-4 py-2 rounded
+    @apply bg-black text-white hidden md:inline transform transition-transform duration-500 hover:scale-115 px-4 py-2 rounded
 }
-.top-container-1{
-    @apply  mt-10 overflow-hidden px-8 md:px-16 lg:px-24
+
+.top-container-1 {
+    @apply mt-10 overflow-hidden px-8 md:px-16 lg:px-24 mb-20
 }
+
 .proj-div {
     @apply px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform duration-500 hover:scale-110 cursor-pointer
 }
+
 .projectslide-img {
-    @apply h-[100px] w-[200px] 
+    @apply h-[100px] w-[200px]
 }
-.Title-div{
+
+.Title-div {
     @apply mb-12 mx-auto text-4xl font-bold text-center
 }
-.serv-parent{
-    @apply flex flex-col py-20  bg-gradient-to-b from-gray-50 to-gray-200 text-center mb-30
+
+.serv-parent {
+    @apply flex flex-col py-20 bg-gradient-to-b from-gray-50 to-gray-200 text-center mb-30
+}
+
+.margin-r {
+    @apply mr-2
+}
+
+.formlabile {
+    @apply block mb-2
+}
+
+.top-conta {
+    @apply py-10
+}
+
+.contact-des {
+    @apply mb-4 mt-8
+}
+
+.contact-des1 {
+    @apply mb-4
+}
+
+.contact-container {
+    @apply mx-auto px-8 md:px-16 lg:px-24 
+}
+
+.footer-input {
+    @apply w-full p-2 rounded bg-[#FFEA00]/20 border border-black focus:outline-none focus:border-white
+}
+
+.cont-titl-2 {
+    @apply flex flex-col md:flex-row items-center md:space-x-12 w-full
+}
+
+.button-all {
+    @apply bg-[#FFEA00] font-bold text-white md:inline transform transition-transform duration-300 hover:scale-110 py-2 px-4 rounded-full
 }
