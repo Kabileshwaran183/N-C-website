@@ -1,11 +1,3 @@
-import { FaComments, FaBullhorn, FaUsers, FaMagic } from "react-icons/fa";
-
-const iconMap = {
-    FaComments: <FaComments />,
-    FaBullhorn: <FaBullhorn />,
-    FaUsers: <FaUsers />,
-    FaMagic: <FaMagic />
-};
 
 const Product = ({ data }) => {
     return (
@@ -16,13 +8,12 @@ const Product = ({ data }) => {
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                     {data
-                        ? data.map((d, i) => (
-                            <div key={`${d.title}`} className="flex flex-col items-center text-center p-4">
-                                <div className="text-4xl text-designColor mb-3">
-                                    {iconMap[d.icon]}
+                        ? data.map((d) => (
+                            <div className="flex flex-col items-center text-center p-4">
+                                <div className="text-4xl mb-3">
+                                    <img src={d.img} />
                                 </div>
                                 <h3 className="text-lg font-semibold text-gray-700">{d.title}</h3>
-                                <p className="text-gray-600 text-sm">{d.text}</p>
                             </div>
                         ))
                         : "Loading..."}

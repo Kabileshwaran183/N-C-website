@@ -1,24 +1,21 @@
 {
     "Features": [
         {
-            "icon": "FaComments",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "img": "assets/birla.png",
+            "title": "Birla"
+            },
+        {
+            "img": "assets/dr fixit.jpg",
+            "title": "dr fixit"
+            },
+        {
+            "img": "assets/myk.png",
+            "title": "myk"
         },
         {
-            "icon": "FaBullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "FaUsers",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "FaMagic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "img": "assets/roff.png",
+            "title": "roff"
+            
         }
     ],
     "Header": {
