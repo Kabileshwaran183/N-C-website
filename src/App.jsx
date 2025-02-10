@@ -15,12 +15,11 @@ function App() {
 
   return (
     <>
-    <div>
+    <div >
         <Navbar data={JsonData.Header}/>
-        <div className="w-full h-auto">
-          
-          <About />
+        <div >
           <Product data={JsonData.Products}/>
+          <About />
           <Services data={JsonData.Services} />
           <Contact />
           <Footer/>
