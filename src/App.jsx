@@ -22,6 +22,7 @@ function App() {
           <About />
           <Services data={JsonData.Services} />
           <Contact />
+          <Footer/>
         </div>
     </div>
     
