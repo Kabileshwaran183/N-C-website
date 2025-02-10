@@ -18,8 +18,9 @@ function App() {
     <div >
         <Navbar data={JsonData.Header}/>
         <div >
-          <Product data={JsonData.Products}/>
+          
           <About />
+          <Product data={JsonData.Products}/>
           <Services data={JsonData.Services} />
           <Contact />
           <Footer/>
