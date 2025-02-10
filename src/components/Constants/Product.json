@@ -1,9 +1,21 @@
 {
-    "Features": [
+    "Products": [
+           {
+            "img": "/assets/ultratech.png",
+            "title": "Ultratech"
+        },
         {
             "img": "assets/birla.png",
             "title": "Birla"
-            },
+        },
+         {
+            "img": "/assets/birla-white-wallcare-putty.png",
+            "title": "Birla wall care"
+        },
+         {
+            "img": "/assets/unnamed.png",
+            "title": "Araldite"
+        },
         {
             "img": "assets/dr fixit.jpg",
             "title": "dr fixit"
@@ -16,7 +28,13 @@
             "img": "assets/roff.png",
             "title": "roff"
             
+        },
+         {
+            "img": "/assets/channels4_profile.jpg",
+            "title": "Bosch"
         }
+        
+        
     ],
     "Header": {
     "title": "We are a Landing Page",
