@@ -31,8 +31,8 @@
 .projectslide-img {
     @apply h-[100px] w-[200px] 
 }
-.prod-div{
-    @apply mb-12
+.Title-div{
+    @apply mb-12 mx-auto text-4xl font-bold text-center
 }
 .serv-parent{
     @apply flex flex-col py-20  bg-gradient-to-b from-gray-50 to-gray-200 text-center mb-30

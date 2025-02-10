@@ -59,8 +59,8 @@ const Product = ({ data }) => {
         <section className="top-container-1  ">
         <div id="Products" className="text-center   ">
             <div className=" ">
-                <div className=" mx-auto  text-4xl font-bold text-center prod-div  ">
-                    <h2 className="text-3xl font-bold text-gray-800 ">Products</h2>
+                <div className=" Title-div ">
+                    <h2 className="text-3xl font-bold text-gray-800 hover:text-yellow-500 ">Products</h2>
                 </div>
                 
                 <div className="grid grid-cols-1  gap-6 md:gap-5 ">
