@@ -11,7 +11,7 @@ const Product = ({ data }) => {
                         ? data.map((d) => (
                             <div className="flex flex-col items-center text-center p-4">
                                 <div className="text-4xl mb-3">
-                                    <img src={d.img} />
+                                    <img src={d.img}  className="h-[150px]"/>
                                 </div>
                                 <h3 className="text-lg font-semibold text-gray-700">{d.title}</h3>
                             </div>
