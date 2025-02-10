@@ -20,7 +20,7 @@ const Navbar = () => {
             }`}
             style={{ backgroundColor: isScrolled ? "rgba(255, 223, 88, 0.2)" : "rgb(253 224 71)" }} 
         >
-            <div className="h-16 mx-auto flex items-center justify-between px-6">
+            <div className="h-16 mx-[20px] max-w-[800px] flex items-center justify-between px-6">
                 <div className="flex items-center text-black font-bold text-2xl">
                     <img src="assets/natarajan.jpg" alt="" className="w-10" />
                     <span>Natarajan and Co</span>
