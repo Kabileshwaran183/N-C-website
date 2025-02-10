@@ -2,21 +2,18 @@ import React from "react";
 
 const Hero = () => {
     return (
-        <div className=" bg-black/20 h-full">
-            <div className="h-full flex justify-center items-center p-4">
-                <div className="gap-4">
-                    <div className="text-black lg:pr-36 w-xl">
-                        <h1 className="text-5xl font-bold">
-                            UltraTech Building Solutions...
+        <div className=" bg-[#000000d7] h-full ">
+            <div className="h-full flex justify-center items-center p-4 ">
+                <div className="gap-4  bg-[#00000038] rounded-2xl w-full h-50  ">
+                    <div className="text-white  lg:pr-36 text-center texth  ">
+                        <h1 className="text-5xl font-bold ">
+                            UltraTech Building <span className="text-yellow-400"> Solutions...</span>
                         </h1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea
-                            dolorem eius accusamus beatae. Nulla quis beatae quo, possimus
-                            tempora similique dignissimos repellat aperiam veniam culpa
-                            consequatur repudiandae asperiores saepe.
+                        <p className="para ">
+                            14 PARUPPOORANI SOUTH, V.O.C R,SRI MUTHUMARIAMMAN KOVIL STREE,KARAIKUD
                         </p>
                         <button
-                            className="bg-yellow-300 text-black hover:bg-amber-500 px-4 py-1 rounded-md duration-200"
+                            className="btn"
                         >
                             Reach us
                         </button>
