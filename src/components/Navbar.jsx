@@ -22,8 +22,6 @@ const Navbar = () => {
         >
             <div className="h-16 mx-[20px] max-w-[800px] flex items-center justify-between px-6 ">
                 <div className={`flex items-center ${isScrolled ? "text-black":"text-white"} font-bold text-2xl`}>
-            <div className="h-16 mx-[20px] max-w-[1000px] flex items-center justify-between px-6">
-                <div className="flex items-center text-black font-bold text-2xl">
                     <img src="assets/natarajan.jpg" alt="" className="w-10" />
                     <span>Natarajan and Co</span>
                 </div>
