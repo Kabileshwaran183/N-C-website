@@ -13,30 +13,31 @@ const Navbar = () => {
     }, []);
 
     return (
+        <section>
         <nav
             data-aos="fade-down"
-            className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-                isScrolled ? "bg-yellow-300 bg-opacity-0 backdrop-blur-md text-white" : "bg-yellow-300"
+            className={`fixed w-full  z-50 transition-all duration-300 flex justify-between
             }`}
-            style={{ backgroundColor: isScrolled ?  "rgb(253 224 71)":"rgba(255, 223, 88, 0.0)" }}
+            style={{ backgroundColor: isScrolled ?  "rgb(255, 234, 0)":"rgba(255, 234, 0, 0.0)" }}
         >
-            <div className="h-16 mx-[20px] max-w-[800px] flex items-center justify-between px-6 ">
-                <div className={`flex items-center ${isScrolled ? "text-black":"text-white"} font-bold text-2xl`}>
+            <div className="h-16 mx-[15px] max-w-[800px] flex justify-between items-center w-full  px-3 ">
+                <div className={`flex items-center  justify-center ${isScrolled ? "text-black":"text-white"} font-bold text-2xl`}>
                     <img src="assets/natarajan.jpg" alt="" className="w-10 rounded-full h-10" />
-                    <span>Natarajan and Co</span>
+                    <span >Natarajan and Co</span>
                 </div>
-                <div className={`${isScrolled ? "text-black":"text-white"} hidden sm:block`}>
-                    <ul className="flex items-center gap-6 text-xl py-4 mr-4">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Dealership</a></li>
-                        <li><a href="#">Contacts</a></li>
+                <div className={` ${isScrolled ? "text-black":"text-white"}  hidden sm:block  `}>
+                    <ul className=" header flex  items-center gap-6  font-bold text-xl py-4 mr-4 ">
+                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFEA00]"}`}>Home</a></li>
+                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFEA00]"}`}>About </a></li>
+                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFEA00]"}`}>Products</a></li>
+                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFEA00]"}`}>Dealership</a></li>
+                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFEA00]"}`}>Contacts</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-    )
-}
+        </section>
+    );
+};
 
 export default Navbar;
