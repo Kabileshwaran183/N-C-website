@@ -22,7 +22,7 @@ export const Services = ({ data }) => {
                   </div>
 
                   <div className="text-center">
-                    <h3 className="text-2xl font-bold text-gray-800 group-hover:text-amber-300 mb-2 group-hover:text-designColor transition-colors duration-300">
+                    <h3 className="text-2xl font-bold text-gray-800 group-hover:text-amber-300  mb-2 group-hover:text-designColor transition-colors duration-300">
                       {d.name}
                     </h3>
                     <p className="text-gray-600 text-base leading-relaxed">{d.text}</p>
