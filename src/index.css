@@ -121,6 +121,7 @@
 
 .footwe-div {
     @apply grid lg:grid-cols-4 gap-20 md:grid-cols-4 grid-cols-2 px-8 md:px-16 lg:px-24 mb-6
+}
 .p{
     @apply py-8 px-6;
 }

@@ -13,7 +13,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <section>
+        <section className="">
         <nav
             data-aos="fade-down"
             className={`fixed w-full z-50 transition-all duration-300
