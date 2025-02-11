@@ -5,8 +5,8 @@ const Footer = () => {
     const Year = new Date().getFullYear();
 
     return (
-        <footer className=" bg-black opacity-90 text-white ">
-            <div className=" top-0 left-0 w-[100%] overflow-hidden">
+        <footer className=" bg-black opacity-90 text-white  ">
+            <div className=" top-0 left-0 w-[100%] overflow-hidden ">
                 <svg data-name="Layer 1"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 1200 120"
@@ -17,62 +17,73 @@ const Footer = () => {
                         3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
                         className="relative block h-[600px] fill-white"></path>
                 </svg>
-                <div className="grid lg:grid-cols-4 gap-20 sm:grid-cols-1 p-20">
-                    <div className="flex flex-col gap-5">
-                        <h2 className="text-3xl text-yellow-500">Footer</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, deleniti dolores
-                            vel ipsa reiciendis corporis similique dolor earum aut itaque.
-                        </p>
+                <div className="footwe-div">
+                    <div className="flex flex-col ">
+                        <h2 className="text-[16px] text-white">Abouts us</h2>
+                       <li className="foot-cont">home</li>
+                        <li className="foot-cont">abouts</li>
+                        <li className="foot-cont">products</li>
                     </div>
 
                     <div>
-                        <li className="text-[22px] list-none font-semibold text-yellow-500 py-2 uppercase">
+                        <h2 className="text-[16px] text-white">
+                            branches
+                        </h2>
+                        <li className="foot-cont">Selva ganesh agency</li>
+                        <li className="foot-cont">madurai</li>
+                        
+                    </div>
+
+                    <div>
+                        <h2 className="text-[16px] text-white">
                             Creativity
-                        </li>
-                        <li className="my-4 list-none">Website Guidlines & Ideas</li>
-                        <li className="my-4 list-none">Tips & Tricks</li>
-                        <li className="my-4 list-none">photography</li>
-                    </div>
-
-                    <div>
-                        <li className="text-[22px] list-none font-semibold text-yellow-500 py-2 uppercase">
-                            Creativity</li>
-                        <li className="my-4 list-none">Guidlines & Ideas</li>
-                        <li className="my-4 list-none">Tips & Tricks</li>
-                        <li className="my-4 list-none">photography</li>
+                        </h2>
+                        <li className="foot-cont">Guidlines & Ideas</li>
+                        <li className="foot-cont">Tips & Tricks</li>
+                        <li className="foot-cont">photography</li>
                     </div>
                     <div className="mb-4 md:mb-0">
-                        <h2 className="text-[22px] font-semibold text-yellow-500 py-2 uppercase">Contact</h2>
-                        <p className="text-[16px] my-4">Email: youremail.gmail.com</p>
-                        <p className="text-[16px] my-4">Phone: +1 113-456-7890 </p>
-                        <div className="flex space-x-4">
-                            <a
-                                className="text-white hover:text-yellow-500 transform hover:scale-150 
-                            transition-all duration-150 ease-in-out" href="">
-                                <FaGithub />
-                            </a>
-                            <a
-                                className="text-white hover:text-yellow-500 transform hover:scale-150
-                            transition-all duration-150 ease-in-out" href="">
-                                <FaLinkedinIn />
-                            </a>
-                            <a
-                                className="text-white hover:text-yellow-500 transform hover:scale-150
-                            transition-all duration-150 ease-in-out" href="">
-                                <FaTwitter />
-                            </a>
-                            <a
-                                className="text-white hover:text-yellow-500 transform hover:scale-150
-                            transition-all duration-150 ease-in-out" href="">
-                                <FaInstagram />
-                            </a>
-                        </div>
+                      <h2 className="text-[16px] text-white">
+                            contact
+                        </h2>
+                        <p className="foot-cont">Karaikudinatarajan@gmail.com</p>
+                        <p className="foot-cont">Phone: +1 113-456-7890 </p>
+                        <p className="foot-cont">karaikudi </p>
+                       
                     </div>
                 </div>
 
 
-                <h6 className="text-center">&copy; SK {Year}</h6>
+                 <div>
+                        <h6 className=" copy">&copy; SK {Year}</h6>
+                    </div>
+                 <div className="">
+                   
+
+                    <div className="flex gap-5 justify-end items-start copy-icon ">
+                             <a
+                                className="text-white hover:text-yellow-500 transform hover:scale-150 
+                            transition-all duration-150 ease-in-out text-2xl" href="">
+                                <FaGithub />
+                            </a>
+                            <a
+                                className="text-white hover:text-yellow-500 transform hover:scale-150
+                            transition-all duration-150 ease-in-out text-2xl" href="">
+                                <FaLinkedinIn />
+                            </a>
+                            <a
+                                className="text-white hover:text-yellow-500 transform hover:scale-150
+                            transition-all duration-150 ease-in-out text-2xl" href="">
+                                <FaTwitter />
+                            </a>
+                            <a
+                                className="text-white hover:text-yellow-500 transform hover:scale-150
+                            transition-all duration-150 ease-in-out text-2xl" href="">
+                                <FaInstagram />
+                            </a>
+                    </div>
+                           
+                        </div>
             </div>
         </footer>
     );
