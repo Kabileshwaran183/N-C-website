@@ -98,3 +98,6 @@
 .header {
     @apply h-16 flex justify-center  items-center w-full px-3
 }
+.txt-shadow{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
