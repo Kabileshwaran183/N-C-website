@@ -18,15 +18,15 @@ const Navbar = () => {
             data-aos="fade-down"
             className={`fixed w-full  z-50 transition-all duration-300
             }`}
-            style={{ backgroundColor: isScrolled ?  "rgb(255, 234, 0)":"rgba(255, 234, 0, 0.0)" }}
+            style={{ backgroundColor: isScrolled ?  "rgb(255, 242, 0)":"rgba(255, 242, 0, 0.0)" }}
         >
-                <div className={` ${isScrolled ? "text-black":"text-white"}  hidden header sm:block`}>
-                    <ul className=" flex gap-16 font-bold text-xl text-[#ffffffc2] ">
-                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFEA00]"} `}>Home</a></li>
-                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFEA00]"} `}>About </a></li>
-                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFEA00]"} `}>Products</a></li>
-                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFEA00]"} `}>Dealership</a></li>
-                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFEA00]"} `}>Contacts</a></li>
+                <div className={` ${isScrolled ? "text-[#231F20]":"text-white"}  hidden header sm:block`}>
+                    <ul className=" flex gap-16 font-bold text-xl  ">
+                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFF200]"} `}>Home</a></li>
+                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFF200]"} `}>About </a></li>
+                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFF200]"} `}>Products</a></li>
+                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFF200]"} `}>Dealership</a></li>
+                        <li><a href="#" className={` ${isScrolled ?"hover:text-[white]":"hover:text-[#FFF200]"} `}>Contacts</a></li>
                     </ul>
                 </div>
         
