@@ -95,5 +95,5 @@
 }
 
 .header {
-    @apply h-16 mx-[15px] flex justify-center  items-center w-full px-3
+    @apply h-16  flex justify-center  items-center w-full px-3
 }

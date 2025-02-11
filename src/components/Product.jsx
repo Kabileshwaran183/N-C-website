@@ -29,7 +29,58 @@ const Product = ({ data }) => {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 786,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    initialSlide: 1,
+                    autoplay: true,
+                    speed: 2000,
+                    autoplaySpeed: 2000,
+                    cssEase: "linear",
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    speed: 2000,
+                    autoplaySpeed: 2000,
+                    cssEase: "linear",
+                }
+            }
+        ]
+    };
+     var setting = {
+        dots: false,
+        infinite: true,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
+        rtl: true,
+
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                    autoplay: true,
+                    speed: 2000,
+                    autoplaySpeed: 2000,
+                    cssEase: "linear",
+                }
+            },
+            {
+                breakpoint: 786,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -57,18 +108,31 @@ const Product = ({ data }) => {
 
     return (
         <section className="top-container-1  ">
-        <div id="Products" className="text-center   ">
+        <div id="Products" className="text-center X ">
             <div className=" ">
                 <div className=" Title-div ">
                     <h2 className="text-3xl font-bold text-gray-800 hover:text-yellow-500 ">Products</h2>
                 </div>
                 
-                <div className="grid grid-cols-1  gap-6 md:gap-5 ">
+                <div className="grid grid-cols-1  lg:gap-6 md:gap-5 gap-7 items-center">
                     <Slider {...settings}>
                     {data
                         ? data.map((d) => (
-                            <div className="flex flex-col items-center text-center ">
-                                <div className=" ">
+                            <div className="flex flex-col items-center text-center  ">
+                                <div className="">
+                                    <img src={d.img}  className="h-[150px] w-[150px] bg-white rounded shadow-lg hover:shadow-2xl transition-all duration-300 group transform hover:-translate-y-2   object-contain "/>
+                                </div>
+                            </div>
+                        ))
+                        : "Loading..."}
+                        </Slider>
+                </div>
+                 <div className="grid grid-cols-1  lg:gap-6 md:gap-5 gap-7 items-center">
+                    <Slider {...setting}>
+                    {data
+                        ? data.map((d) => (
+                            <div className="flex flex-col items-center text-center  ">
+                                <div className="">
                                     <img src={d.img}  className="h-[150px] w-[150px] bg-white rounded shadow-lg hover:shadow-2xl transition-all duration-300 group transform hover:-translate-y-2   object-contain "/>
                                 </div>
                             </div>
