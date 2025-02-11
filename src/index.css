@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 * {
     margin: 0;
     padding: 0;
@@ -96,4 +97,8 @@
 
 .header {
     @apply h-16 flex justify-center  items-center w-full px-3
+}
+
+.text-shadow {
+    @apply text-shadow-md
 }

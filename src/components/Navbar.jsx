@@ -16,7 +16,7 @@ const Navbar = () => {
         <section>
         <nav
             data-aos="fade-down"
-            className={`fixed w-full  z-50 transition-all duration-300
+            className={`fixed w-full z-50 transition-all duration-300
             }`}
             style={{ backgroundColor: isScrolled ?  "rgb(255, 234, 0)":"rgba(255, 234, 0, 0.0)" }}
         >
