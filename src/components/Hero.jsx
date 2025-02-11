@@ -2,9 +2,9 @@ import React from "react";
 
 const Hero = () => {
     return (
-        <div className=" bg-[#000000d7] h-full ">
+        <div className=" bg-[#000000a5] h-full ">
             <div className="h-full flex justify-center items-center p-4 ">
-                <div className="gap-4  bg-[#00000038] rounded-2xl w-full h-50  ">
+                <div className="gap-4  bg-[#00000028] rounded-2xl w-full h-50  ">
                     <div className="text-white  lg:pr-36 text-center texth  ">
                         <h1 className="text-5xl font-bold ">
                             UltraTech Building <span className="text-yellow-400"> Solutions...</span>
