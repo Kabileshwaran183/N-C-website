@@ -7,13 +7,13 @@ const Hero = () => {
                 <div className="gap-4  bg-[#00000028] rounded-2xl w-full h-50  ">
                     <div className="text-white  lg:pr-36 text-center texth  ">
                         <h1 className="text-5xl font-bold ">
-                            UltraTech Building <span className="text-[#FFEA00]"> Solutions...</span>
+                            UltraTech Building <span className="text-[#FFF200]"> Solutions...</span>
                         </h1>
                         <p className="para ">
                             14 PARUPPOORANI SOUTH, V.O.C R,SRI MUTHUMARIAMMAN KOVIL STREE,KARAIKUD
                         </p>
                         <button
-                            className="btn"
+                            className="btn text-[#290849]"
                         >
                             Reach us
                         </button>
