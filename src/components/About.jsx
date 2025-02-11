@@ -3,9 +3,9 @@ import React from "react";
 export const About = () => {
     return (
         <section className="top-container-1">
-                    <div id="about" className="py-16 bg-gray-100">
+                    <div id="about" className="py-16 bg-gray-50">
                          <div className=" Title-div ">
-                    <h2 className="text-3xl font-bold text-gray-800 hover:text-yellow-500 ">About us</h2>
+                    <h2 className="text-3xl font-bold text-gray-800 txt-shadow hover:text-yellow-500 ">About us</h2>
                 </div>
             <div className="container mx-auto px-6 md:px-12">
                 

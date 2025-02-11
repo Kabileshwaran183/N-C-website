@@ -111,7 +111,7 @@ const Product = ({ data }) => {
         <div id="Products" className="text-center X ">
             <div className=" ">
                 <div className=" Title-div ">
-                    <h2 className="text-3xl font-bold text-gray-800 hover:text-yellow-500 ">Products</h2>
+                    <h2 className="text-3xl font-bold text-gray-800 hover:text-yellow-500 txt-shadow ">Products</h2>
                 </div>
                 
                 <div className="grid grid-cols-1  lg:gap-6 md:gap-5 gap-7 items-center">
