@@ -8,7 +8,7 @@ import './index.css'
 
 import JsonData from "./components/Constants/Product.json"
 import Footer from "./components/Footer"
-import { Services } from "./components/services"
+import { Services } from "./components/Services"
 import Hero from "./components/Hero"
 
 
