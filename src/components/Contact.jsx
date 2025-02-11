@@ -30,8 +30,8 @@ const Contact = () => {
   return (
     <div className=' top-container-1 ' id='contact'>
 
-      <div className='flex flex-col contact-container bg-gray-50 txt-shadow  text-black   ' id='contact'>
-        <h2 className='Title-div  hover:text-[#EFB036] '>contact me</h2>
+      <div className='flex flex-col contact-container bg-gray-50   text-black   ' id='contact'>
+        <h2 className='Title-div  hover:text-[#FFF200] txt-shadow '>contact me</h2>
         <div className=' cont-titl-2'>
           <div className='  '>
             <h3>letz talt</h3>

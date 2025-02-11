@@ -36,11 +36,14 @@
 }
 
 .Title-div {
-    @apply mb-12 mx-auto text-4xl font-bold text-center
+    @apply mb-12 mx-auto text-4xl font-bold text-center 
 }
 
 .serv-parent {
     @apply flex flex-col py-20 bg-gradient-to-b from-gray-50 to-gray-200 text-center mb-30
+}
+.container-serv{
+    @apply mx-auto px-10 md:px-20
 }
 
 .margin-r {
@@ -96,7 +99,7 @@
 }
 
 .header {
-    @apply h-16 flex justify-center items-center w-full px-3
+    @apply h-16 flex justify-center items-center w-full px-3 
 }
 
 .txt-shadow {
@@ -124,4 +127,7 @@
 }
 .p{
     @apply py-8 px-6;
+}
+.slid{
+    @apply mt-8 mb-8 
 }

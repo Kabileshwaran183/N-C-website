@@ -9,7 +9,7 @@
             "title": "Birla"
         },
         {
-            "img": "/assets/birla-white-wallcare-putty.png",
+            "img": "/Bg/WALLCARE BG.png",
             "title": "Birla wall care"
         },
           {
@@ -25,11 +25,11 @@
             "title": "dr fixit"
         },
         {
-            "img": "assets/myk.png",
+            "img": "/Bg/myk.jpg",
             "title": "myk"
         },
         {
-            "img": "assets/roff.png",
+            "img": "/Bg/ROFF BG.png",
             "title": "roff"
         }
     ],
