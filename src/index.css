@@ -80,7 +80,7 @@
 }
 
 .servies-img {
-    @apply w-50 h-40 flex object-fill items-center justify-center rounded-full mb-4 transition-all duration-300
+    @apply w-50 h-40 flex object-fill items-center justify-center rounded-full mb-1 transition-all duration-300
 }
 
 .para {
@@ -100,4 +100,7 @@
 }
 .txt-shadow{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.p{
+    @apply py-8 px-6;
 }
